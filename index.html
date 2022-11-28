@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/mi-pagina.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>2.Diseño pagina web, con HTML5 Y CCS3</title>
+    <link rel="stylesheet" href="./index_files/mi-pagina.css">
+</head>
+<body>
+    <div id="container">
+        <div id="logo">
+            <img src="./index_files/blessd.jpg" width="90">
+        </div>
+        
+        <div id="menu">
+           
+            <a href="https://open.spotify.com/artist/1TA5sGRlKUJXBN4ZyJuDIX">MÚSICA</a>
+            <a href="https://www.youtube.com/c/Blessd/videos">VIDEOS</a>
+            <a href="https://www.google.com/search?q=BLESSD+FOTOS&amp;sxsrf=AOaemvL3HHP_NqcND63RIKp04xGTchsoIw:1637557050342&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjmrqOyl6v0AhXjGLkGHUIsBbUQ_AUoAXoECAEQAw&amp;biw=1366&amp;bih=568&amp;dpr=1">FOTOS</a>
+            <a href="https://www.songkick.com/es/artists/65241-blessed">CONCIERTOS</a>
+        </div>
+        <div id="conten">
+            <div id="bloq_izq">
+                <h2>BLESSD</h2>
+                    <p>Stiven Mesa Londoño , más conocido como Blessd, es un rapero, freestyler y cantante colombiano, joven promesa de la música urbana.</p>
+            </div>
+            <div id="bloq_der">
+                <h3>INICIOS</h3>
+                    <p>Solía despertarse a las dos de la mañana para ir a la central, a las 7 entraba a la escuela y luego de salir volvía a trabajar. Los domingos y festivos su jornada empezaba a las dos y terminaba tarde en la noche.</p>
+            </div>
+        </div>
+        <div id="colum">
+            <div id="izq">
+                <h3>CANCIONES:</h3>
+                    <a href="https://www.youtube.com/watch?v=6z-YeIf7ahw">DOS PROBLEMAS</a>
+                    <a href="https://www.youtube.com/watch?v=DfLccBbrMXM">IMPOSIBLE</a>
+                    <a href="https://www.youtube.com/watch?v=KdQqOC3JScE">REGAÑOS</a>
+                    <a href="https://www.youtube.com/watch?v=11j847kV474">PARCERA</a>
+                    <a href="https://www.youtube.com/watch?v=M5IPpvzg-Qw">HOROSCOPO</a>
+                    <a href="https://www.youtube.com/watch?v=hMhR6T7EEfQ">MEDALLO</a>
+            </div>
+            <div id="med">
+                <img src="./index_files/el bendito.jpeg">
+            </div>
+            <div id="der">
+                <h3>MAS INFORMACION:</h3>
+                    <a href="https://historia-biografia.com/blessd-un-artista-hecho-en-medellin/">Biografia</a>
+            </div>
+        </div>
+        <div id="pie">
+           PAGINA DE<br>
+            DE: Gerson Argollo Magne
+        </div>
+
+        <b> <br>Su ultima cancion:</b>
+        <center> <br><audio src="videos/bless1.mp4" controls="" height="30%" width="30%"></audio></center>
+
+
+        <b> <br>Uno de sus famosos tik toks:</b>
+        <center> <br><video src="videos/medallo.mp4" controls="" height="30%" width="30%"></video></center>
+        
+        <center> <br><video src="videos/vid2.mp4" controls="" height="30%" width="30%"></video></center>
+
+        
+        
+
+
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
